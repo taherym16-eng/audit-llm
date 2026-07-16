@@ -1,0 +1,23 @@
+
+**/__pycache__/
+*.pyc
+*.zip
+results/
+checkpoint-*/
+.ipynb_checkpoints/
+.env
+
+# Ignore heavy model weights permanently
+*.safetensors
+*.bin
+*.pkl
+
+# Ignore dataset files (avoids GitHub secret scanner blocks)
+*.jsonl
+*.csv
+val_v2.jsonl
+train_v2.jsonl
+test.csv
+challenge_set.csv
+challenge_set_v2.csv
+v2_results_*.csv
